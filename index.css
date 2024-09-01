@@ -1,0 +1,27 @@
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    display: flex;
+    padding: 20px;
+}
+
+p{
+    font-size: 25px;
+    float: left;
+    margin-left: 120px;
+}
+
+.foto{
+    width: 260px;
+    border-radius: 70px;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: right;
+    margin-right: 200px;
+    border-style:solid; /*deixar a foto com uma borda*/
+    color: #E68369;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    font-family: "Signika Negative", sans-serif;/*fonte importada para usar nas paginas*/
+}
+
+body{
+    background-color: #131842;/* cor de fundo da pagina*/
+    color: #ECCEAE;
+    margin: 0;
+    width: 100%;/*largura e comprimento da pagina*/
+    height: 100%;
+}
+
+.links{
+    background-color: #e68269bd;
+    font-size: 20px;/* tamanho da fonte*/
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #ECCEAE;
+}
+
+a:hover{ /*efeito para mudar a cor dos links ao passar o mause */
+    color: #131842;
+    transition: 0.3s all;
+}
+
+.git{
+  width: 30px;
+}
+
+

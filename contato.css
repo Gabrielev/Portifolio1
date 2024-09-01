@@ -1,0 +1,73 @@
+.conteiner{
+    display: flex;/*deixar uma divi do lado da outra*/
+    margin: 130px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.esquerda{
+    font-size: 25px;
+}
+
+
+.direita{
+    background-color: #e68269bd;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+button{
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #131842;
+    color: #ECCEAE;
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+button:hover{/*quando o mause passa por cima do botão ele muda de cor*/
+    background-color: #03072b;
+    color: #dbb081;
+    transition: 0.3s all;
+}
+
+.direita h1{
+    color: #131842;
+    margin: 25px;
+    margin-left: 90px;
+}
+
+input{
+    background-color: #ECCEAE; /*fundo dos inputs */
+    color: #03072b;
+    border-radius: 10px;
+    border: 0;
+    width: 90%;
+    height: 10%;
+    padding: 5px;  
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+input:hover{/*quando o mause passa por cima de cada input ele muda de cor*/
+    background-color: #d0b393;
+    transition: 0.3s all;
+}
+
+textarea{
+    background-color: #ECCEAE;
+    color: #03072b;
+    border: 0;
+    border-radius: 10px;
+    width: 91%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+textarea:hover{/*quando o mause passa por cima da caixa de mensagem ea muda de cor*/
+    background-color: #d0b393;
+    transition: 0.3s all; 
+}
